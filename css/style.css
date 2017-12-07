@@ -316,7 +316,7 @@ img {
 .features__item__title::before {
   content: "";
   position: absolute;
-  background-image: url(../../img/sprite.png); }
+  background-image: url(../img/sprite.png); }
 
 .features__item__title--first::before {
   background-position: -39px 0px;
