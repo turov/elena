@@ -407,7 +407,9 @@ img {
   padding-bottom: 66px; }
 
 .offers__item img {
-  display: block; }
+  display: block;
+  -webkit-box-shadow: 0px 9px 70px -10px #878685;
+          box-shadow: 0px 9px 70px -10px #878685; }
 
 .offers__item__title {
   position: relative;
