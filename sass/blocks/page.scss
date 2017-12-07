@@ -1,0 +1,28 @@
+.page {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  @include link;
+}
+
+img {
+  max-width: 100%;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  overflow: hidden;
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+}

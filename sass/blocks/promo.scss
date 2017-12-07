@@ -1,0 +1,74 @@
+.promo {
+  position: relative;
+  padding-top: 66px;
+  padding-bottom: 120px;
+  background-color: #184a57;
+  background: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1) 50% ), #090706 url(../img/promo-background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promo__slogan {
+  margin-top: 62px;
+  margin-bottom: 31px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 53px;
+  line-height: 53px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.promo__description {
+  position: relative;
+  margin-bottom: 76px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 485px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.promo__description::before,
+.promo__description::after
+{
+  content: "";
+  position: absolute;
+  top: 13px;
+  height: 2px;
+  width: 100px;
+  background: #eeeeef;
+}
+
+.promo__description::before {
+  left: 0;
+}
+
+.promo__description::after {
+  right: 0;
+}
+
+@media (max-width: 600px) {
+
+  .promo__slogan {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .promo__description {
+    width: 240px;
+  }
+
+  .promo__description::before,
+  .promo__description::after {
+    width: 0;
+    height: 0;
+  }
+}

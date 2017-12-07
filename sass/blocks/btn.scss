@@ -1,0 +1,68 @@
+.btn {
+  text-align: center;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: $white;
+  background: $green;
+  border: 1px solid $green;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: $white;
+  color: $green;
+}
+
+.btn:active {
+  opacity: 0.8;
+}
+
+.btn--promo {
+  display: block;
+  margin: 0 auto;
+  width: 232px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 0;
+}
+
+.btn--offer {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+  width: 96px;
+  padding: 4px 0;
+}
+
+.btn--support {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $white;
+  background: #d2d5da;
+  border-color: #d2d5da;
+  text-transform: none;
+  padding: 4px 0;
+  width: 96px;
+  margin-left: 3px;
+}
+
+.btn--support:hover {
+  color: #787b80;
+}
+
+@media (max-width: 600px) {
+  .btn--offer,
+  .btn--support {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
