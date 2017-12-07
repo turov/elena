@@ -209,7 +209,7 @@ img {
     display: block;
     margin: 0 auto;
     width: 20%;
-    height: auto;
+    height: 25px;
     fill: #30e3c8; }
   .nav__item:active svg {
     fill: #50c3af;
