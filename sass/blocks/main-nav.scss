@@ -84,6 +84,11 @@
     font-size: 0;
   }
 
+  .nav__link::after,
+  .nav__link:hover::after {
+    background-color: transparent;
+  }
+
   .nav__link {
     font-size: 0;
     display: flex;
