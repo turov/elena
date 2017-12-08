@@ -74,7 +74,7 @@ img {
   margin-bottom: 76px;
   margin-left: auto;
   margin-right: auto;
-  width: 230px;
+  width: 240px;
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -93,18 +93,16 @@ img {
   background: #eeeeef; }
 
 .promo__description::before {
-  left: -126px; }
+  left: -120px; }
 
 .promo__description::after {
-  right: -124px; }
+  right: -120px; }
 
 @media (max-width: 600px) {
   .promo__slogan {
     width: 300px;
     margin-left: auto;
     margin-right: auto; }
-  .promo__description {
-    width: 240px; }
   .promo__description::before,
   .promo__description::after {
     left: 50%;
